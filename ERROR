@@ -1,0 +1,40 @@
+Nov 28 12:37:56 ip-10-248-136-132 hyperkube[4385]: I1128 12:37:56.667916    4385 flags.go:33] FLAG: --storage-driver-secure="false"
+Nov 28 12:37:56 ip-10-248-136-132 hyperkube[4385]: I1128 12:37:56.667919    4385 flags.go:33] FLAG: --storage-driver-table="stats"
+Nov 28 12:37:56 ip-10-248-136-132 hyperkube[4385]: I1128 12:37:56.667922    4385 flags.go:33] FLAG: --storage-driver-user="root"
+Nov 28 12:37:56 ip-10-248-136-132 hyperkube[4385]: I1128 12:37:56.667927    4385 flags.go:33] FLAG: --streaming-connection-idle-timeout="4h0m0s"
+Nov 28 12:37:56 ip-10-248-136-132 hyperkube[4385]: I1128 12:37:56.667930    4385 flags.go:33] FLAG: --sync-frequency="1m0s"
+Nov 28 12:37:56 ip-10-248-136-132 hyperkube[4385]: I1128 12:37:56.667933    4385 flags.go:33] FLAG: --system-cgroups=""
+Nov 28 12:37:56 ip-10-248-136-132 hyperkube[4385]: I1128 12:37:56.667936    4385 flags.go:33] FLAG: --system-reserved=""
+Nov 28 12:37:56 ip-10-248-136-132 hyperkube[4385]: I1128 12:37:56.667940    4385 flags.go:33] FLAG: --system-reserved-cgroup=""
+Nov 28 12:37:56 ip-10-248-136-132 hyperkube[4385]: I1128 12:37:56.667943    4385 flags.go:33] FLAG: --tls-cert-file=""
+Nov 28 12:37:56 ip-10-248-136-132 hyperkube[4385]: I1128 12:37:56.667946    4385 flags.go:33] FLAG: --tls-cipher-suites="[]"
+Nov 28 12:37:56 ip-10-248-136-132 hyperkube[4385]: I1128 12:37:56.667949    4385 flags.go:33] FLAG: --tls-min-version=""
+Nov 28 12:37:56 ip-10-248-136-132 hyperkube[4385]: I1128 12:37:56.667952    4385 flags.go:33] FLAG: --tls-private-key-file=""
+Nov 28 12:37:56 ip-10-248-136-132 hyperkube[4385]: I1128 12:37:56.667955    4385 flags.go:33] FLAG: --v="3"
+Nov 28 12:37:56 ip-10-248-136-132 hyperkube[4385]: I1128 12:37:56.667958    4385 flags.go:33] FLAG: --version="false"
+Nov 28 12:37:56 ip-10-248-136-132 hyperkube[4385]: I1128 12:37:56.667963    4385 flags.go:33] FLAG: --vmodule=""
+Nov 28 12:37:56 ip-10-248-136-132 hyperkube[4385]: I1128 12:37:56.667966    4385 flags.go:33] FLAG: --volume-plugin-dir="/etc/kubernetes/kubelet-plugins/volume/exec"
+Nov 28 12:37:56 ip-10-248-136-132 hyperkube[4385]: I1128 12:37:56.667970    4385 flags.go:33] FLAG: --volume-stats-agg-period="1m0s"
+Nov 28 12:37:56 ip-10-248-136-132 hyperkube[4385]: I1128 12:37:56.668002    4385 feature_gate.go:226] feature gates: &{map[]}
+Nov 28 12:37:56 ip-10-248-136-132 hyperkube[4385]: W1128 12:37:56.668023    4385 options.go:263] unknown 'kubernetes.io' or 'k8s.io' labels specified with --node-labels: [node-role.kubernetes.io/master]
+Nov 28 12:37:56 ip-10-248-136-132 hyperkube[4385]: W1128 12:37:56.668034    4385 options.go:264] in 1.16, --node-labels in the 'kubernetes.io' namespace must begin with an allowed prefix (kubelet.kubernetes.io, node.kubernetes.io) or be in the specifically allowed set (beta.kubernetes.io/arch, beta.kubernetes.io/instance-type, beta.kubernetes.io/os, failure-domain.beta.kubernetes.io/region, failure-domain.beta.kubernetes.io/zone, failure-domain.kubernetes.io/region, failure-domain.kubernetes.io/zone, kubernetes.io/arch, kubernetes.io/hostname, kubernetes.io/instance-type, kubernetes.io/os)
+Nov 28 12:37:56 ip-10-248-136-132 hyperkube[4385]: Flag --rotate-certificates has been deprecated, This parameter should be set via the config file specified by the Kubelet's --config flag. See https://kubernetes.io/docs/tasks/administer-cluster/kubelet-config-file/ for more information.
+Nov 28 12:37:56 ip-10-248-136-132 hyperkube[4385]: Flag --minimum-container-ttl-duration has been deprecated, Use --eviction-hard or --eviction-soft instead. Will be removed in a future version.
+Nov 28 12:37:56 ip-10-248-136-132 hyperkube[4385]: I1128 12:37:56.669059    4385 feature_gate.go:226] feature gates: &{map[ExperimentalCriticalPodAnnotation:true LocalStorageCapacityIsolation:false RotateKubeletServerCertificate:true SupportPodPidsLimit:true]}
+Nov 28 12:37:56 ip-10-248-136-132 hyperkube[4385]: I1128 12:37:56.669103    4385 feature_gate.go:226] feature gates: &{map[ExperimentalCriticalPodAnnotation:true LocalStorageCapacityIsolation:false RotateKubeletServerCertificate:true SupportPodPidsLimit:true]}
+Nov 28 12:37:56 ip-10-248-136-132 systemd[1]: Started Kubernetes systemd probe.
+Nov 28 12:37:56 ip-10-248-136-132 hyperkube[4385]: I1128 12:37:56.677134    4385 mount_linux.go:171] Detected OS with systemd
+Nov 28 12:37:56 ip-10-248-136-132 hyperkube[4385]: I1128 12:37:56.677175    4385 server.go:427] Version: v1.14.6+6ac6aa4b0
+Nov 28 12:37:56 ip-10-248-136-132 hyperkube[4385]: I1128 12:37:56.677224    4385 feature_gate.go:226] feature gates: &{map[ExperimentalCriticalPodAnnotation:true LocalStorageCapacityIsolation:false RotateKubeletServerCertificate:true SupportPodPidsLimit:true]}
+Nov 28 12:37:56 ip-10-248-136-132 hyperkube[4385]: I1128 12:37:56.677282    4385 feature_gate.go:226] feature gates: &{map[ExperimentalCriticalPodAnnotation:true LocalStorageCapacityIsolation:false RotateKubeletServerCertificate:true SupportPodPidsLimit:true]}
+Nov 28 12:37:56 ip-10-248-136-132 hyperkube[4385]: W1128 12:37:56.677299    4385 options.go:263] unknown 'kubernetes.io' or 'k8s.io' labels specified with --node-labels: [node-role.kubernetes.io/master]
+Nov 28 12:37:56 ip-10-248-136-132 hyperkube[4385]: W1128 12:37:56.677311    4385 options.go:264] in 1.16, --node-labels in the 'kubernetes.io' namespace must begin with an allowed prefix (kubelet.kubernetes.io, node.kubernetes.io) or be in the specifically allowed set (beta.kubernetes.io/arch, beta.kubernetes.io/instance-type, beta.kubernetes.io/os, failure-domain.beta.kubernetes.io/region, failure-domain.beta.kubernetes.io/zone, failure-domain.kubernetes.io/region, failure-domain.kubernetes.io/zone, kubernetes.io/arch, kubernetes.io/hostname, kubernetes.io/instance-type, kubernetes.io/os)
+Nov 28 12:37:56 ip-10-248-136-132 hyperkube[4385]: W1128 12:37:56.677385    4385 plugins.go:118] WARNING: aws built-in cloud provider is now deprecated. The AWS provider is deprecated and will be removed in a future release
+Nov 28 12:37:56 ip-10-248-136-132 hyperkube[4385]: I1128 12:37:56.677455    4385 aws.go:1171] Building AWS cloudprovider
+Nov 28 12:37:56 ip-10-248-136-132 hyperkube[4385]: I1128 12:37:56.677498    4385 aws.go:1137] Zone not specified in configuration file; querying AWS metadata service
+Nov 28 12:37:56 ip-10-248-136-132 hyperkube[4385]: F1128 12:37:56.679450    4385 server.go:268] failed to run Kubelet: could not init cloud provider "aws": error finding instance i-00448dd17e4056483: "error listing AWS instances: \"NoCredentialProviders: no valid providers in chain. Deprecated.\\n\\tFor verbose messaging see aws.Config.CredentialsChainVerboseErrors\""
+Nov 28 12:37:56 ip-10-248-136-132 systemd[1]: run-r059f5346cc0f43478ef0a6568815ce5e.scope: Consumed 770us CPU time
+Nov 28 12:37:56 ip-10-248-136-132 systemd[1]: kubelet.service: Main process exited, code=exited, status=255/n/a
+Nov 28 12:37:56 ip-10-248-136-132 systemd[1]: kubelet.service: Failed with result 'exit-code'.
+Nov 28 12:37:56 ip-10-248-136-132 systemd[1]: Failed to start Kubernetes Kubelet.
+Nov 28 12:37:56 ip-10-248-136-132 systemd[1]: kubelet.service: Consumed 128ms CPU time
