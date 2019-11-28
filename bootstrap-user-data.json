@@ -1,0 +1,17 @@
+{
+    "ignition": {
+        "config": {
+            "replace": {
+                "source": "s3://dev.ddp.doosan.com-infra/bootstrap.ign",
+                "verification": {}
+            }
+        },
+        "timeouts": {},
+        "version": "2.1.0"
+    },
+    "networkd": {
+    },
+    "passwd": {},
+    "storage": {},
+    "systemd": {}
+}
