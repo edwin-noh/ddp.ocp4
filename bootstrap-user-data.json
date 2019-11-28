@@ -3,7 +3,7 @@
         "config": {
             "append": [
                 {
-                    "source": "s3://",
+                    "source": "s3://dev.ddp.doosan.com-infra/bootstrap.ign",
                     "verification": {}
                 }
             ]
