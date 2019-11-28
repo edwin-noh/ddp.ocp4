@@ -3,7 +3,7 @@
         "config": {
             "append": [
                 {
-                    "source": "https://api-int.dev.ddp.doosan.dom:22623/config/master",
+                    "source": "https://api-int.dev.ddp.doosan.com:22623/config/master",
                     "verification": {}
                 }
             ]
