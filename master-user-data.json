@@ -3,7 +3,7 @@
         "config": {
             "append": [
                 {
-                    "source": "https://api-int.dev.ddp.doosan.com:22623/config/master",
+                    "source": "https://api-int.ddp.doosan.com:22623/config/master",
                     "verification": {}
                 }
             ]
@@ -12,7 +12,34 @@
             "tls": {
              "certificateAuthorities": [
                     {
-                        "source":"data:text/plain;charset=utf-8;base64,LS0tLS1CRUdJTiBDRVJUSUZJQ0FURS0tLS0tCk1JSURFRENDQWZpZ0F3SUJBZ0lJQklSUGNWVTliaE13RFFZSktvWklodmNOQVFFTEJRQXdKakVTTUJBR0ExVUUKQ3hNSmIzQmxibk5vYVdaME1SQXdEZ1lEVlFRREV3ZHliMjkwTFdOaE1CNFhEVEU1TVRJeE9EQXdOVE13TTFvWApEVEk1TVRJeE5UQXdOVE13TTFvd0pqRVNNQkFHQTFVRUN4TUpiM0JsYm5Ob2FXWjBNUkF3RGdZRFZRUURFd2R5CmIyOTBMV05oTUlJQklqQU5CZ2txaGtpRzl3MEJBUUVGQUFPQ0FROEFNSUlCQ2dLQ0FRRUF6dXdVYTFobjVTbTcKTmtNUldaL1RvWWdQbzJIM0FyZ1NEWTgxZ0pFWk5zMngva2VjUXZ6NUJ1ZW0wMDBnU0U1STRSSVJyR21IUllUOApvVzROcjlaR0FxU1VCMFRMUzlMT3BzZENIN1hMQU5OTXhoSHpoN1RRUU9XYkV4SjdFMXpLb2hwWmkvRG5PRDNwCmFyQmt0cHB3VHo3RjRTelRraDFXQ3VEaWlkampyYVNvbWhmd0xJZ3QrbTBwN0pNZmJoNUVLQzQxU2wzY1U0MXkKWHJGamFIcFg3TEZCeUMwZzJPM3dXZHBOY3dRcXlXTjlMT2ZEczY1aE9pSGY2eHR0SkJGdk1PdGxxS0UxOGVscgpvSkRuSDcyQVJRL0FFQ3JtL2FzbzRhaUZGTlMrajJvQ0xaYm9vYncvVmNmdS9ZalkyaXhrVndUSzR0YjFIYWNyCkRCK1gvd1VUaFFJREFRQUJvMEl3UURBT0JnTlZIUThCQWY4RUJBTUNBcVF3RHdZRFZSMFRBUUgvQkFVd0F3RUIKL3pBZEJnTlZIUTRFRmdRVXFMQTd1T2NLL2lxWk1TWVRqbmkyVGVKR0pJd3dEUVlKS29aSWh2Y05BUUVMQlFBRApnZ0VCQUV0bnQzQ0tFWVlSK3hiT3NiazdGSmNCcURaMDlWcmZmbUxYMWhUUjhLWUZHM2grbnJrL1ZRQmFCcm8wCkRLNjNOQ1dPVmJveElLSWpRZzh3YlFLYll2UXI2b05tL0M2c0EyZjB6bmFqazdHR0VHTlZTdzgraXR0UHFHOVUKTjhWOFZINVhFR0lDTmQwaFBDSWd5aUZQRXErUVV2UFI5Y09mazRINWUrYkVsdGxkb1RnS0htZkdwL2JORWZ5egpCZEFXUUc0bWlENHdHejNqUStYUWwySWY4eEdKcHEwVk91QU90MW9ET3h2eStKc2xFb00vMnlkMGlPdExhRUFNCmk5Vm16ZkRpbTRWT2NmVTlBa1RiNGtvZC9wTWVPNTB0V0ZqdW1QU0QzVlk4WFdDQnhLbnFHUE96aC9ES0dWem8KZXcva3loUm9DeFR6NnlpV3BwZEZMNE9KbWNrPQotLS0tLUVORCBDRVJUSUZJQ0FURS0tLS0tCg==",
+                        "source":"{
+    "ignition": {
+        "config": {
+            "append": [
+                {
+                    "source": "https://api-int.ddp.doosan.com:22623/config/master",
+                    "verification": {}
+                }
+            ]
+        },
+        "security": {
+            "tls": {
+             "certificateAuthorities": [
+                    {
+                        "source":"data:text/plain;charset=utf-8;base64,LS0tLS1CRUdJTiBDRVJUSUZJQ0FURS0tLS0tCk1JSURFRENDQWZpZ0F3SUJBZ0lJWE45T1hGLzNHdVl3RFFZSktvWklodmNOQVFFTEJRQXdKakVTTUJBR0ExVUUKQ3hNSmIzQmxibk5vYVdaME1SQXdEZ1lEVlFRREV3ZHliMjkwTFdOaE1CNFhEVEl3TURJeE9UQTFNak13TUZvWApEVE13TURJeE5qQTFNak13TUZvd0pqRVNNQkFHQTFVRUN4TUpiM0JsYm5Ob2FXWjBNUkF3RGdZRFZRUURFd2R5CmIyOTBMV05oTUlJQklqQU5CZ2txaGtpRzl3MEJBUUVGQUFPQ0FROEFNSUlCQ2dLQ0FRRUFzU1dMM25kWmhDakMKb3NxRDBqRUxTcXFocW9obm5WMHh6Zy9nRC9pUjlhMDI1dE1kT2hxaGdDbmRpMkN1bmszN0RGbUtvSVU5VFFKVQpIdGFyNWkvUkxkaGZ4c0tUdlNkSm5wck5kQ1hNS2NHVVgvbFZ4RE5CenN6bWkvT2lWNWowSzB0Z001elJ3Q1RqClByRTl3OGJIVUdzZW1BTk9aNUh3Ukp1Q0FDQ2dZUGFJSUpBZnFoQTAzcVVxRUFuRG5vd2ZrWEhMNDlSdkkxc2QKM3FodC9hSEswTXZ4bWF5ajRoVjRzTjIxQ2lrRTVJOHN4bHlFb0FETmFTeWxNaUNyd2Jhd1g2MWpjblZoVFhwKwovaGVLbTNCaDUzNnBPbDFYYTNIUHRDR3I1MlM5WmhRZ2N1UVZ2SGZvc0JyTU5vMTJEeUlUN0tEdUNJZmZkR3YrCjZseWM1ZHFHMFFJREFRQUJvMEl3UURBT0JnTlZIUThCQWY4RUJBTUNBcVF3RHdZRFZSMFRBUUgvQkFVd0F3RUIKL3pBZEJnTlZIUTRFRmdRVTg4VWF6RHlPRCt2QVdZanRxWDFzYkF5NGpaVXdEUVlKS29aSWh2Y05BUUVMQlFBRApnZ0VCQUswMG11T1dET09hMzFUYmtidlpQRVdxcUZDMlVQcmZLMVVxTnVybWVPMGozVVFrU0drVzNHSkhFT0VaCkkrcE9tNWc2NG40RDRkb241eFVnRUk4ZDdkUktDbzdRUE52MUhUTnFvOUhZUmRad25NQWlWWm1DRjAxRXIwSnUKdUdReit5SU43czVHQlhDNzJjekxZSTBZR1ZWTndFM0dxSFhLS2tGSS8vSVBrQ2FrVEw3SFlKRWs4MW1qSTBYVAo4NklwSS82TVdITFFBYzRYamIzbUlIU2ZRODkxSU1ZanRLUDc5bEErTFd3eGxvR0Y0cjBEUDN1NmdZSkFNeElVCndLRVJCb2VUK3Fnc1R5ODZhbzBYelVzeGEwTDdiZStyem9ZZmFrRmVnTE15RmR1TUFpTk1JeEp3d2NNWStWakoKV0RmNEo2M2tWTTRWZHpSQUxNeFRjTk1yZDdNPQotLS0tLUVORCBDRVJUSUZJQ0FURS0tLS0tCg==",
+                        "verification": {}
+                    }
+                ]
+            }
+        },
+        "timeouts": {},
+        "version": "2.2.0"
+    },
+    "networkd": {},
+    "passwd": {},
+    "storage": {},
+    "systemd": {}
+}",
                         "verification": {}
                     }
                 ]
