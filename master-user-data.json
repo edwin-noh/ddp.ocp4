@@ -12,34 +12,7 @@
             "tls": {
              "certificateAuthorities": [
                     {
-                        "source":"{
-    "ignition": {
-        "config": {
-            "append": [
-                {
-                    "source": "https://api-int.ddp.doosan.com:22623/config/master",
-                    "verification": {}
-                }
-            ]
-        },
-        "security": {
-            "tls": {
-             "certificateAuthorities": [
-                    {
                         "source":"data:text/plain;charset=utf-8;base64,LS0tLS1CRUdJTiBDRVJUSUZJQ0FURS0tLS0tCk1JSURFRENDQWZpZ0F3SUJBZ0lJWE45T1hGLzNHdVl3RFFZSktvWklodmNOQVFFTEJRQXdKakVTTUJBR0ExVUUKQ3hNSmIzQmxibk5vYVdaME1SQXdEZ1lEVlFRREV3ZHliMjkwTFdOaE1CNFhEVEl3TURJeE9UQTFNak13TUZvWApEVE13TURJeE5qQTFNak13TUZvd0pqRVNNQkFHQTFVRUN4TUpiM0JsYm5Ob2FXWjBNUkF3RGdZRFZRUURFd2R5CmIyOTBMV05oTUlJQklqQU5CZ2txaGtpRzl3MEJBUUVGQUFPQ0FROEFNSUlCQ2dLQ0FRRUFzU1dMM25kWmhDakMKb3NxRDBqRUxTcXFocW9obm5WMHh6Zy9nRC9pUjlhMDI1dE1kT2hxaGdDbmRpMkN1bmszN0RGbUtvSVU5VFFKVQpIdGFyNWkvUkxkaGZ4c0tUdlNkSm5wck5kQ1hNS2NHVVgvbFZ4RE5CenN6bWkvT2lWNWowSzB0Z001elJ3Q1RqClByRTl3OGJIVUdzZW1BTk9aNUh3Ukp1Q0FDQ2dZUGFJSUpBZnFoQTAzcVVxRUFuRG5vd2ZrWEhMNDlSdkkxc2QKM3FodC9hSEswTXZ4bWF5ajRoVjRzTjIxQ2lrRTVJOHN4bHlFb0FETmFTeWxNaUNyd2Jhd1g2MWpjblZoVFhwKwovaGVLbTNCaDUzNnBPbDFYYTNIUHRDR3I1MlM5WmhRZ2N1UVZ2SGZvc0JyTU5vMTJEeUlUN0tEdUNJZmZkR3YrCjZseWM1ZHFHMFFJREFRQUJvMEl3UURBT0JnTlZIUThCQWY4RUJBTUNBcVF3RHdZRFZSMFRBUUgvQkFVd0F3RUIKL3pBZEJnTlZIUTRFRmdRVTg4VWF6RHlPRCt2QVdZanRxWDFzYkF5NGpaVXdEUVlKS29aSWh2Y05BUUVMQlFBRApnZ0VCQUswMG11T1dET09hMzFUYmtidlpQRVdxcUZDMlVQcmZLMVVxTnVybWVPMGozVVFrU0drVzNHSkhFT0VaCkkrcE9tNWc2NG40RDRkb241eFVnRUk4ZDdkUktDbzdRUE52MUhUTnFvOUhZUmRad25NQWlWWm1DRjAxRXIwSnUKdUdReit5SU43czVHQlhDNzJjekxZSTBZR1ZWTndFM0dxSFhLS2tGSS8vSVBrQ2FrVEw3SFlKRWs4MW1qSTBYVAo4NklwSS82TVdITFFBYzRYamIzbUlIU2ZRODkxSU1ZanRLUDc5bEErTFd3eGxvR0Y0cjBEUDN1NmdZSkFNeElVCndLRVJCb2VUK3Fnc1R5ODZhbzBYelVzeGEwTDdiZStyem9ZZmFrRmVnTE15RmR1TUFpTk1JeEp3d2NNWStWakoKV0RmNEo2M2tWTTRWZHpSQUxNeFRjTk1yZDdNPQotLS0tLUVORCBDRVJUSUZJQ0FURS0tLS0tCg==",
-                        "verification": {}
-                    }
-                ]
-            }
-        },
-        "timeouts": {},
-        "version": "2.2.0"
-    },
-    "networkd": {},
-    "passwd": {},
-    "storage": {},
-    "systemd": {}
-}",
                         "verification": {}
                     }
                 ]
